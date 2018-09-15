@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0;
+  height: 100vh;
+  background: #ddd;
+}
+#title {
+  font-family: helvetica, sans;
+  font-size: 1.8em;
+}
+.container {
+  position: relative;
+  background: #fafafa;
+  border-radius: 4px;
+  box-shadow: 2px 2px 40px -6px #444;
+}
+.bar {
+  fill: #a47;
+}
+.bar:hover {
+  fill: darkblue;
+}
+#tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 4px 14px;
+  font: 12px sans-serif;
+  background: #ddd;
+  border-radius: 4px;
+  pointer-events: none;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+#source {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  fill: #444;
+}
+
+.axis-label {
+  font-family: helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer {
+  align-self: flex-end;
+  width: 200px;
+  padding: 6px;
+  font-family: verdana, sans;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+}
+a {
+  color: green;
+  font-size: 1.2em;
+}
